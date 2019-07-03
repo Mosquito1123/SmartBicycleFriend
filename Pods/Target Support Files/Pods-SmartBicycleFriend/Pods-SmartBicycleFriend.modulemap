@@ -1,0 +1,6 @@
+framework module Pods_SmartBicycleFriend {
+  umbrella header "Pods-SmartBicycleFriend-umbrella.h"
+
+  export *
+  module * { export * }
+}

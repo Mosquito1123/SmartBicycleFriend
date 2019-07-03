@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		022D1C836C8C09081BBBF6A2 /* Pods_SmartBicycleFriend.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65963D4150BDC9C3720FB791 /* Pods_SmartBicycleFriend.framework */; };
+		F3B3DB5722CC4A38008CB8DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DB5622CC4A38008CB8DD /* AppDelegate.swift */; };
+		F3B3DB5922CC4A38008CB8DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DB5822CC4A38008CB8DD /* ViewController.swift */; };
+		F3B3DB5C22CC4A38008CB8DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB5A22CC4A38008CB8DD /* Main.storyboard */; };
+		F3B3DB5E22CC4A38008CB8DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB5D22CC4A38008CB8DD /* Assets.xcassets */; };
+		F3B3DB6122CC4A38008CB8DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB5F22CC4A38008CB8DD /* LaunchScreen.storyboard */; };
+		F3B3DBCD22CC8A6B008CB8DD /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8822CC8A60008CB8DD /* 58.png */; };
+		F3B3DC3122CC8A7A008CB8DD /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8622CC8A60008CB8DD /* 80.png */; };
+		F3B3DC3222CC8A7A008CB8DD /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA522CC8A62008CB8DD /* 87.png */; };
+		F3B3DC3322CC8A7A008CB8DD /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8322CC8A60008CB8DD /* 120.png */; };
+		F3B3DC3422CC8A7A008CB8DD /* AKTC.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9722CC8A61008CB8DD /* AKTC.png */; };
+		F3B3DC3522CC8A7A008CB8DD /* Annapolis.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8D22CC8A60008CB8DD /* Annapolis.png */; };
+		F3B3DC3622CC8A7A008CB8DD /* Apron.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9E22CC8A62008CB8DD /* Apron.png */; };
+		F3B3DC3722CC8A7A008CB8DD /* Attraction.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9B22CC8A62008CB8DD /* Attraction.png */; };
+		F3B3DC3822CC8A7A008CB8DD /* BackgroundImage1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7E22CC8A60008CB8DD /* BackgroundImage1.jpeg */; };
+		F3B3DC3922CC8A7A008CB8DD /* BackgroundImage2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB022CC8A63008CB8DD /* BackgroundImage2.jpeg */; };
+		F3B3DC3A22CC8A7A008CB8DD /* BackgroundImage3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6A22CC8A5F008CB8DD /* BackgroundImage3.jpeg */; };
+		F3B3DC3B22CC8A7A008CB8DD /* BackgroundImage4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8022CC8A60008CB8DD /* BackgroundImage4.jpeg */; };
+		F3B3DC3C22CC8A7A008CB8DD /* BackgroundImage5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7722CC8A5F008CB8DD /* BackgroundImage5.jpeg */; };
+		F3B3DC3D22CC8A7A008CB8DD /* BanksBikes.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBAD22CC8A63008CB8DD /* BanksBikes.png */; };
+		F3B3DC3E22CC8A7A008CB8DD /* BayFerry.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB122CC8A63008CB8DD /* BayFerry.png */; };
+		F3B3DC3F22CC8A7A008CB8DD /* BearRiver.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6B22CC8A5F008CB8DD /* BearRiver.png */; };
+		F3B3DC4022CC8A7A008CB8DD /* BernArt.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA122CC8A62008CB8DD /* BernArt.png */; };
+		F3B3DC4122CC8A7A008CB8DD /* Berwick&District.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA622CC8A62008CB8DD /* Berwick&District.png */; };
+		F3B3DC4222CC8A7A008CB8DD /* Best-Western-Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6F22CC8A5F008CB8DD /* Best-Western-Plus.png */; };
+		F3B3DC4322CC8A7A008CB8DD /* BicycleSpecialist.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBAF22CC8A63008CB8DD /* BicycleSpecialist.png */; };
+		F3B3DC4422CC8A7A008CB8DD /* Bike Shop.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6D22CC8A5F008CB8DD /* Bike Shop.png */; };
+		F3B3DC4522CC8A7A008CB8DD /* Bike&Bean.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA922CC8A63008CB8DD /* Bike&Bean.png */; };
+		F3B3DC4622CC8A7A008CB8DD /* BikeMonkey.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA722CC8A62008CB8DD /* BikeMonkey.png */; };
+		F3B3DC4722CC8A7A008CB8DD /* Breton.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8122CC8A60008CB8DD /* Breton.png */; };
+		F3B3DC4822CC8A7A008CB8DD /* BurlingtonRose.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9D22CC8A62008CB8DD /* BurlingtonRose.png */; };
+		F3B3DC4922CC8A7A008CB8DD /* Camping.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9922CC8A62008CB8DD /* Camping.png */; };
+		F3B3DC4A22CC8A7A008CB8DD /* CathedralChurch.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9122CC8A61008CB8DD /* CathedralChurch.png */; };
+		F3B3DC4B22CC8A7A008CB8DD /* CloudNineNovelties.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBBA22CC8A64008CB8DD /* CloudNineNovelties.png */; };
+		F3B3DC4C22CC8A7A008CB8DD /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8F22CC8A61008CB8DD /* compass.png */; };
+		F3B3DC4D22CC8A7A008CB8DD /* Cycles-Guitars.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA822CC8A63008CB8DD /* Cycles-Guitars.png */; };
+		F3B3DC4E22CC8A7A008CB8DD /* Cyclesmith.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8E22CC8A61008CB8DD /* Cyclesmith.png */; };
+		F3B3DC4F22CC8A7A008CB8DD /* DancingGoat.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8A22CC8A60008CB8DD /* DancingGoat.png */; };
+		F3B3DC5022CC8A7A008CB8DD /* Digby.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBBD22CC8A64008CB8DD /* Digby.png */; };
+		F3B3DC5122CC8A7A008CB8DD /* DuncansPub.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9522CC8A61008CB8DD /* DuncansPub.png */; };
+		F3B3DC5222CC8A7A008CB8DD /* Earltown.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7C22CC8A5F008CB8DD /* Earltown.png */; };
+		F3B3DC5322CC8A7A008CB8DD /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9022CC8A61008CB8DD /* eye.png */; };
+		F3B3DC5422CC8A7A008CB8DD /* FacebookLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9C22CC8A62008CB8DD /* FacebookLogo.png */; };
+		F3B3DC5522CC8A7A008CB8DD /* Flag.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8B22CC8A60008CB8DD /* Flag.png */; };
+		F3B3DC5622CC8A7A008CB8DD /* Frameworks.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB322CC8A63008CB8DD /* Frameworks.png */; };
+		F3B3DC5722CC8A7A008CB8DD /* Francis.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC322CC8A64008CB8DD /* Francis.png */; };
+		F3B3DC5822CC8A7A008CB8DD /* GardenHouse.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBAB22CC8A63008CB8DD /* GardenHouse.png */; };
+		F3B3DC5922CC8A7A008CB8DD /* Garrison.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC722CC8A65008CB8DD /* Garrison.png */; };
+		F3B3DC5A22CC8A7A008CB8DD /* GoodRobot.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7322CC8A5F008CB8DD /* GoodRobot.png */; };
+		F3B3DC5B22CC8A7A008CB8DD /* Hants-Exhibition-Grounds.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC822CC8A65008CB8DD /* Hants-Exhibition-Grounds.png */; };
+		F3B3DC5C22CC8A7A008CB8DD /* HarbourGuesthouse.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9322CC8A61008CB8DD /* HarbourGuesthouse.png */; };
+		F3B3DC5D22CC8A7A008CB8DD /* HeartBikes.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7622CC8A5F008CB8DD /* HeartBikes.png */; };
+		F3B3DC5E22CC8A7A008CB8DD /* Highland.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8422CC8A60008CB8DD /* Highland.png */; };
+		F3B3DC5F22CC8A7A008CB8DD /* Holiday-Inn.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBAA22CC8A63008CB8DD /* Holiday-Inn.png */; };
+		F3B3DC6022CC8A7A008CB8DD /* homepage.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBCA22CC8A65008CB8DD /* homepage.jpeg */; };
+		F3B3DC6122CC8A7A008CB8DD /* House.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBAE22CC8A63008CB8DD /* House.png */; };
+		F3B3DC6222CC8A7A008CB8DD /* Hubbards.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA022CC8A62008CB8DD /* Hubbards.png */; };
+		F3B3DC6322CC8A7A008CB8DD /* HubCycle.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBCC22CC8A65008CB8DD /* HubCycle.png */; };
+		F3B3DC6422CC8A7A008CB8DD /* IdealBikes.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBBE22CC8A64008CB8DD /* IdealBikes.png */; };
+		F3B3DC6522CC8A7A008CB8DD /* iFIT.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7522CC8A5F008CB8DD /* iFIT.png */; };
+		F3B3DC6622CC8A7A008CB8DD /* Inn.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB522CC8A63008CB8DD /* Inn.png */; };
+		F3B3DC6722CC8A7A008CB8DD /* InstagramLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9A22CC8A62008CB8DD /* InstagramLogo.png */; };
+		F3B3DC6822CC8A7A008CB8DD /* JavaBlend.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7022CC8A5F008CB8DD /* JavaBlend.png */; };
+		F3B3DC6922CC8A7A008CB8DD /* Jeffs.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6C22CC8A5F008CB8DD /* Jeffs.png */; };
+		F3B3DC6A22CC8A7A008CB8DD /* KaulbachHouse.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBBF22CC8A64008CB8DD /* KaulbachHouse.png */; };
+		F3B3DC6B22CC8A7A008CB8DD /* Kiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC122CC8A64008CB8DD /* Kiwi.png */; };
+		F3B3DC6C22CC8A7A008CB8DD /* LaceyMines.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6922CC8A5F008CB8DD /* LaceyMines.png */; };
+		F3B3DC6D22CC8A7A008CB8DD /* Lanes.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7B22CC8A5F008CB8DD /* Lanes.png */; };
+		F3B3DC6E22CC8A7A008CB8DD /* Liscomb.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8C22CC8A60008CB8DD /* Liscomb.png */; };
+		F3B3DC6F22CC8A7A008CB8DD /* Logo-White-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8722CC8A60008CB8DD /* Logo-White-BG.png */; };
+		F3B3DC7022CC8A7A008CB8DD /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBBC22CC8A64008CB8DD /* Logo.png */; };
+		F3B3DC7122CC8A7A008CB8DD /* Lunchbox.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8522CC8A60008CB8DD /* Lunchbox.png */; };
+		F3B3DC7222CC8A7A008CB8DD /* Mabou.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB622CC8A63008CB8DD /* Mabou.png */; };
+		F3B3DC7322CC8A7A008CB8DD /* Maven.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8222CC8A60008CB8DD /* Maven.png */; };
+		F3B3DC7422CC8A7A008CB8DD /* Meander-Brewery.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7A22CC8A5F008CB8DD /* Meander-Brewery.png */; };
+		F3B3DC7522CC8A7A008CB8DD /* MEC.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB422CC8A63008CB8DD /* MEC.png */; };
+		F3B3DC7622CC8A7A008CB8DD /* Mecklenburg.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB822CC8A64008CB8DD /* Mecklenburg.png */; };
+		F3B3DC7722CC8A7A008CB8DD /* Mercator-Vineyards.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB8922CC8A60008CB8DD /* Mercator-Vineyards.png */; };
+		F3B3DC7822CC8A7A008CB8DD /* NewGlasgow.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC222CC8A64008CB8DD /* NewGlasgow.png */; };
+		F3B3DC7922CC8A7A008CB8DD /* Northumberland.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC422CC8A64008CB8DD /* Northumberland.png */; };
+		F3B3DC7A22CC8A7A008CB8DD /* Oak.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBCB22CC8A65008CB8DD /* Oak.png */; };
+		F3B3DC7B22CC8A7A008CB8DD /* OceanStone.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB722CC8A64008CB8DD /* OceanStone.png */; };
+		F3B3DC7C22CC8A7A008CB8DD /* OutsideOutdoor.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC922CC8A65008CB8DD /* OutsideOutdoor.png */; };
+		F3B3DC7D22CC8A7A008CB8DD /* Pavia.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB6E22CC8A5F008CB8DD /* Pavia.png */; };
+		F3B3DC7E22CC8A7A008CB8DD /* Queens-Place.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7D22CC8A5F008CB8DD /* Queens-Place.png */; };
+		F3B3DC7F22CC8A7A008CB8DD /* Restaurant.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7822CC8A5F008CB8DD /* Restaurant.png */; };
+		F3B3DC8022CC8A7A008CB8DD /* RiverRidge.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9622CC8A61008CB8DD /* RiverRidge.png */; };
+		F3B3DC8122CC8A7A008CB8DD /* RumbLine.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA222CC8A62008CB8DD /* RumbLine.png */; };
+		F3B3DC8222CC8A7A008CB8DD /* Saltbox.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA422CC8A62008CB8DD /* Saltbox.png */; };
+		F3B3DC8322CC8A7A008CB8DD /* Schoolhouse.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7422CC8A5F008CB8DD /* Schoolhouse.png */; };
+		F3B3DC8422CC8A7A008CB8DD /* SchoolhouseBrewery.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9F22CC8A62008CB8DD /* SchoolhouseBrewery.png */; };
+		F3B3DC8522CC8A7A008CB8DD /* Scotsman.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9422CC8A61008CB8DD /* Scotsman.png */; };
+		F3B3DC8622CC8A7A008CB8DD /* SnowWhite.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB222CC8A63008CB8DD /* SnowWhite.png */; };
+		F3B3DC8722CC8A7A008CB8DD /* Spoke&Note.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9222CC8A61008CB8DD /* Spoke&Note.png */; };
+		F3B3DC8822CC8A7A008CB8DD /* Sportwheels.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7F22CC8A60008CB8DD /* Sportwheels.png */; };
+		F3B3DC8922CC8A7A008CB8DD /* Stuart.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7122CC8A5F008CB8DD /* Stuart.png */; };
+		F3B3DC8A22CC8A7A008CB8DD /* SweetRide.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC022CC8A64008CB8DD /* SweetRide.png */; };
+		F3B3DC8B22CC8A7A008CB8DD /* TangledGardens.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC522CC8A64008CB8DD /* TangledGardens.png */; };
+		F3B3DC8C22CC8A7A008CB8DD /* Tanner.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7922CC8A5F008CB8DD /* Tanner.png */; };
+		F3B3DC8D22CC8A7A008CB8DD /* The_Bicycle_Lunchbox.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB7222CC8A5F008CB8DD /* The_Bicycle_Lunchbox.png */; };
+		F3B3DC8E22CC8A7A008CB8DD /* TwitterLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBC622CC8A65008CB8DD /* TwitterLogo.png */; };
+		F3B3DC8F22CC8A7A008CB8DD /* UnionStreet.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBB922CC8A64008CB8DD /* UnionStreet.png */; };
+		F3B3DC9022CC8A7A008CB8DD /* VeloBaie.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBBB22CC8A64008CB8DD /* VeloBaie.png */; };
+		F3B3DC9122CC8A7A008CB8DD /* Velofix.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DB9822CC8A61008CB8DD /* Velofix.png */; };
+		F3B3DC9222CC8A7A008CB8DD /* Wiles-Lake.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBAC22CC8A63008CB8DD /* Wiles-Lake.png */; };
+		F3B3DC9322CC8A7A008CB8DD /* write-letter.png in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DBA322CC8A62008CB8DD /* write-letter.png */; };
+		F3B3DC9722CC9307008CB8DD /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DC9622CC9307008CB8DD /* CustomButton.swift */; };
+		F3B3DC9A22CC933D008CB8DD /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DC9922CC933D008CB8DD /* Company.swift */; };
+		F3B3DC9C22CC93E6008CB8DD /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DC9B22CC93E6008CB8DD /* JSONParser.swift */; };
+		F3B3DC9E22CC9413008CB8DD /* service.php in Resources */ = {isa = PBXBuildFile; fileRef = F3B3DC9D22CC9413008CB8DD /* service.php */; };
+		F3B3DCA022CC9697008CB8DD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DC9F22CC9697008CB8DD /* HomeViewController.swift */; };
+		F3B3DCA222CC96B6008CB8DD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DCA122CC96B6008CB8DD /* MapViewController.swift */; };
+		F3B3DCA422CC973E008CB8DD /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DCA322CC973E008CB8DD /* LocationDetailViewController.swift */; };
+		F3B3DCA622CC97C4008CB8DD /* FeedbackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DCA522CC97C4008CB8DD /* FeedbackViewController.swift */; };
+		F3B3DCA822CC97FF008CB8DD /* PopUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3DCA722CC97FF008CB8DD /* PopUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		238898ACEE6A4E21225A5ED5 /* Pods-SmartBicycleFriend.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartBicycleFriend.release.xcconfig"; path = "Target Support Files/Pods-SmartBicycleFriend/Pods-SmartBicycleFriend.release.xcconfig"; sourceTree = "<group>"; };
+		65963D4150BDC9C3720FB791 /* Pods_SmartBicycleFriend.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartBicycleFriend.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B6EBF6310E3699404365359 /* Pods-SmartBicycleFriend.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartBicycleFriend.debug.xcconfig"; path = "Target Support Files/Pods-SmartBicycleFriend/Pods-SmartBicycleFriend.debug.xcconfig"; sourceTree = "<group>"; };
+		F3B3DB5322CC4A38008CB8DD /* SmartBicycleFriend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartBicycleFriend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3B3DB5622CC4A38008CB8DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F3B3DB5822CC4A38008CB8DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F3B3DB5B22CC4A38008CB8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3B3DB5D22CC4A38008CB8DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3B3DB6022CC4A38008CB8DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3B3DB6222CC4A38008CB8DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B3DB6922CC8A5F008CB8DD /* LaceyMines.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaceyMines.png; sourceTree = "<group>"; };
+		F3B3DB6A22CC8A5F008CB8DD /* BackgroundImage3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundImage3.jpeg; sourceTree = "<group>"; };
+		F3B3DB6B22CC8A5F008CB8DD /* BearRiver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BearRiver.png; sourceTree = "<group>"; };
+		F3B3DB6C22CC8A5F008CB8DD /* Jeffs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Jeffs.png; sourceTree = "<group>"; };
+		F3B3DB6D22CC8A5F008CB8DD /* Bike Shop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bike Shop.png"; sourceTree = "<group>"; };
+		F3B3DB6E22CC8A5F008CB8DD /* Pavia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pavia.png; sourceTree = "<group>"; };
+		F3B3DB6F22CC8A5F008CB8DD /* Best-Western-Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Best-Western-Plus.png"; sourceTree = "<group>"; };
+		F3B3DB7022CC8A5F008CB8DD /* JavaBlend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JavaBlend.png; sourceTree = "<group>"; };
+		F3B3DB7122CC8A5F008CB8DD /* Stuart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stuart.png; sourceTree = "<group>"; };
+		F3B3DB7222CC8A5F008CB8DD /* The_Bicycle_Lunchbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Bicycle_Lunchbox.png; sourceTree = "<group>"; };
+		F3B3DB7322CC8A5F008CB8DD /* GoodRobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoodRobot.png; sourceTree = "<group>"; };
+		F3B3DB7422CC8A5F008CB8DD /* Schoolhouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Schoolhouse.png; sourceTree = "<group>"; };
+		F3B3DB7522CC8A5F008CB8DD /* iFIT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iFIT.png; sourceTree = "<group>"; };
+		F3B3DB7622CC8A5F008CB8DD /* HeartBikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HeartBikes.png; sourceTree = "<group>"; };
+		F3B3DB7722CC8A5F008CB8DD /* BackgroundImage5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundImage5.jpeg; sourceTree = "<group>"; };
+		F3B3DB7822CC8A5F008CB8DD /* Restaurant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Restaurant.png; sourceTree = "<group>"; };
+		F3B3DB7922CC8A5F008CB8DD /* Tanner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tanner.png; sourceTree = "<group>"; };
+		F3B3DB7A22CC8A5F008CB8DD /* Meander-Brewery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Meander-Brewery.png"; sourceTree = "<group>"; };
+		F3B3DB7B22CC8A5F008CB8DD /* Lanes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lanes.png; sourceTree = "<group>"; };
+		F3B3DB7C22CC8A5F008CB8DD /* Earltown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Earltown.png; sourceTree = "<group>"; };
+		F3B3DB7D22CC8A5F008CB8DD /* Queens-Place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Queens-Place.png"; sourceTree = "<group>"; };
+		F3B3DB7E22CC8A60008CB8DD /* BackgroundImage1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundImage1.jpeg; sourceTree = "<group>"; };
+		F3B3DB7F22CC8A60008CB8DD /* Sportwheels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sportwheels.png; sourceTree = "<group>"; };
+		F3B3DB8022CC8A60008CB8DD /* BackgroundImage4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundImage4.jpeg; sourceTree = "<group>"; };
+		F3B3DB8122CC8A60008CB8DD /* Breton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Breton.png; sourceTree = "<group>"; };
+		F3B3DB8222CC8A60008CB8DD /* Maven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maven.png; sourceTree = "<group>"; };
+		F3B3DB8322CC8A60008CB8DD /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		F3B3DB8422CC8A60008CB8DD /* Highland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Highland.png; sourceTree = "<group>"; };
+		F3B3DB8522CC8A60008CB8DD /* Lunchbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lunchbox.png; sourceTree = "<group>"; };
+		F3B3DB8622CC8A60008CB8DD /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		F3B3DB8722CC8A60008CB8DD /* Logo-White-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo-White-BG.png"; sourceTree = "<group>"; };
+		F3B3DB8822CC8A60008CB8DD /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		F3B3DB8922CC8A60008CB8DD /* Mercator-Vineyards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mercator-Vineyards.png"; sourceTree = "<group>"; };
+		F3B3DB8A22CC8A60008CB8DD /* DancingGoat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DancingGoat.png; sourceTree = "<group>"; };
+		F3B3DB8B22CC8A60008CB8DD /* Flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag.png; sourceTree = "<group>"; };
+		F3B3DB8C22CC8A60008CB8DD /* Liscomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Liscomb.png; sourceTree = "<group>"; };
+		F3B3DB8D22CC8A60008CB8DD /* Annapolis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Annapolis.png; sourceTree = "<group>"; };
+		F3B3DB8E22CC8A61008CB8DD /* Cyclesmith.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cyclesmith.png; sourceTree = "<group>"; };
+		F3B3DB8F22CC8A61008CB8DD /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		F3B3DB9022CC8A61008CB8DD /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		F3B3DB9122CC8A61008CB8DD /* CathedralChurch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CathedralChurch.png; sourceTree = "<group>"; };
+		F3B3DB9222CC8A61008CB8DD /* Spoke&Note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Spoke&Note.png"; sourceTree = "<group>"; };
+		F3B3DB9322CC8A61008CB8DD /* HarbourGuesthouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HarbourGuesthouse.png; sourceTree = "<group>"; };
+		F3B3DB9422CC8A61008CB8DD /* Scotsman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Scotsman.png; sourceTree = "<group>"; };
+		F3B3DB9522CC8A61008CB8DD /* DuncansPub.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DuncansPub.png; sourceTree = "<group>"; };
+		F3B3DB9622CC8A61008CB8DD /* RiverRidge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RiverRidge.png; sourceTree = "<group>"; };
+		F3B3DB9722CC8A61008CB8DD /* AKTC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AKTC.png; sourceTree = "<group>"; };
+		F3B3DB9822CC8A61008CB8DD /* Velofix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Velofix.png; sourceTree = "<group>"; };
+		F3B3DB9922CC8A62008CB8DD /* Camping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Camping.png; sourceTree = "<group>"; };
+		F3B3DB9A22CC8A62008CB8DD /* InstagramLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = InstagramLogo.png; sourceTree = "<group>"; };
+		F3B3DB9B22CC8A62008CB8DD /* Attraction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Attraction.png; sourceTree = "<group>"; };
+		F3B3DB9C22CC8A62008CB8DD /* FacebookLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FacebookLogo.png; sourceTree = "<group>"; };
+		F3B3DB9D22CC8A62008CB8DD /* BurlingtonRose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurlingtonRose.png; sourceTree = "<group>"; };
+		F3B3DB9E22CC8A62008CB8DD /* Apron.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apron.png; sourceTree = "<group>"; };
+		F3B3DB9F22CC8A62008CB8DD /* SchoolhouseBrewery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SchoolhouseBrewery.png; sourceTree = "<group>"; };
+		F3B3DBA022CC8A62008CB8DD /* Hubbards.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hubbards.png; sourceTree = "<group>"; };
+		F3B3DBA122CC8A62008CB8DD /* BernArt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BernArt.png; sourceTree = "<group>"; };
+		F3B3DBA222CC8A62008CB8DD /* RumbLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RumbLine.png; sourceTree = "<group>"; };
+		F3B3DBA322CC8A62008CB8DD /* write-letter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "write-letter.png"; sourceTree = "<group>"; };
+		F3B3DBA422CC8A62008CB8DD /* Saltbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Saltbox.png; sourceTree = "<group>"; };
+		F3B3DBA522CC8A62008CB8DD /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		F3B3DBA622CC8A62008CB8DD /* Berwick&District.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Berwick&District.png"; sourceTree = "<group>"; };
+		F3B3DBA722CC8A62008CB8DD /* BikeMonkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BikeMonkey.png; sourceTree = "<group>"; };
+		F3B3DBA822CC8A63008CB8DD /* Cycles-Guitars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cycles-Guitars.png"; sourceTree = "<group>"; };
+		F3B3DBA922CC8A63008CB8DD /* Bike&Bean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bike&Bean.png"; sourceTree = "<group>"; };
+		F3B3DBAA22CC8A63008CB8DD /* Holiday-Inn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Holiday-Inn.png"; sourceTree = "<group>"; };
+		F3B3DBAB22CC8A63008CB8DD /* GardenHouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GardenHouse.png; sourceTree = "<group>"; };
+		F3B3DBAC22CC8A63008CB8DD /* Wiles-Lake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wiles-Lake.png"; sourceTree = "<group>"; };
+		F3B3DBAD22CC8A63008CB8DD /* BanksBikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BanksBikes.png; sourceTree = "<group>"; };
+		F3B3DBAE22CC8A63008CB8DD /* House.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = House.png; sourceTree = "<group>"; };
+		F3B3DBAF22CC8A63008CB8DD /* BicycleSpecialist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BicycleSpecialist.png; sourceTree = "<group>"; };
+		F3B3DBB022CC8A63008CB8DD /* BackgroundImage2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackgroundImage2.jpeg; sourceTree = "<group>"; };
+		F3B3DBB122CC8A63008CB8DD /* BayFerry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BayFerry.png; sourceTree = "<group>"; };
+		F3B3DBB222CC8A63008CB8DD /* SnowWhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SnowWhite.png; sourceTree = "<group>"; };
+		F3B3DBB322CC8A63008CB8DD /* Frameworks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Frameworks.png; sourceTree = "<group>"; };
+		F3B3DBB422CC8A63008CB8DD /* MEC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MEC.png; sourceTree = "<group>"; };
+		F3B3DBB522CC8A63008CB8DD /* Inn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inn.png; sourceTree = "<group>"; };
+		F3B3DBB622CC8A63008CB8DD /* Mabou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mabou.png; sourceTree = "<group>"; };
+		F3B3DBB722CC8A64008CB8DD /* OceanStone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OceanStone.png; sourceTree = "<group>"; };
+		F3B3DBB822CC8A64008CB8DD /* Mecklenburg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mecklenburg.png; sourceTree = "<group>"; };
+		F3B3DBB922CC8A64008CB8DD /* UnionStreet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UnionStreet.png; sourceTree = "<group>"; };
+		F3B3DBBA22CC8A64008CB8DD /* CloudNineNovelties.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloudNineNovelties.png; sourceTree = "<group>"; };
+		F3B3DBBB22CC8A64008CB8DD /* VeloBaie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VeloBaie.png; sourceTree = "<group>"; };
+		F3B3DBBC22CC8A64008CB8DD /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		F3B3DBBD22CC8A64008CB8DD /* Digby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Digby.png; sourceTree = "<group>"; };
+		F3B3DBBE22CC8A64008CB8DD /* IdealBikes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IdealBikes.png; sourceTree = "<group>"; };
+		F3B3DBBF22CC8A64008CB8DD /* KaulbachHouse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KaulbachHouse.png; sourceTree = "<group>"; };
+		F3B3DBC022CC8A64008CB8DD /* SweetRide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SweetRide.png; sourceTree = "<group>"; };
+		F3B3DBC122CC8A64008CB8DD /* Kiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Kiwi.png; sourceTree = "<group>"; };
+		F3B3DBC222CC8A64008CB8DD /* NewGlasgow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NewGlasgow.png; sourceTree = "<group>"; };
+		F3B3DBC322CC8A64008CB8DD /* Francis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Francis.png; sourceTree = "<group>"; };
+		F3B3DBC422CC8A64008CB8DD /* Northumberland.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Northumberland.png; sourceTree = "<group>"; };
+		F3B3DBC522CC8A64008CB8DD /* TangledGardens.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TangledGardens.png; sourceTree = "<group>"; };
+		F3B3DBC622CC8A65008CB8DD /* TwitterLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TwitterLogo.png; sourceTree = "<group>"; };
+		F3B3DBC722CC8A65008CB8DD /* Garrison.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Garrison.png; sourceTree = "<group>"; };
+		F3B3DBC822CC8A65008CB8DD /* Hants-Exhibition-Grounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hants-Exhibition-Grounds.png"; sourceTree = "<group>"; };
+		F3B3DBC922CC8A65008CB8DD /* OutsideOutdoor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OutsideOutdoor.png; sourceTree = "<group>"; };
+		F3B3DBCA22CC8A65008CB8DD /* homepage.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = homepage.jpeg; sourceTree = "<group>"; };
+		F3B3DBCB22CC8A65008CB8DD /* Oak.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Oak.png; sourceTree = "<group>"; };
+		F3B3DBCC22CC8A65008CB8DD /* HubCycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HubCycle.png; sourceTree = "<group>"; };
+		F3B3DC9622CC9307008CB8DD /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		F3B3DC9922CC933D008CB8DD /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		F3B3DC9B22CC93E6008CB8DD /* JSONParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
+		F3B3DC9D22CC9413008CB8DD /* service.php */ = {isa = PBXFileReference; lastKnownFileType = text.script.php; path = service.php; sourceTree = "<group>"; };
+		F3B3DC9F22CC9697008CB8DD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3B3DCA122CC96B6008CB8DD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		F3B3DCA322CC973E008CB8DD /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
+		F3B3DCA522CC97C4008CB8DD /* FeedbackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbackViewController.swift; sourceTree = "<group>"; };
+		F3B3DCA722CC97FF008CB8DD /* PopUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3B3DB5022CC4A38008CB8DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				022D1C836C8C09081BBBF6A2 /* Pods_SmartBicycleFriend.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38E748B186C8DB1004578483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B6EBF6310E3699404365359 /* Pods-SmartBicycleFriend.debug.xcconfig */,
+				238898ACEE6A4E21225A5ED5 /* Pods-SmartBicycleFriend.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF84BCD195548B519A32F914 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65963D4150BDC9C3720FB791 /* Pods_SmartBicycleFriend.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3B3DB4A22CC4A37008CB8DD = {
+			isa = PBXGroup;
+			children = (
+				F3B3DB5522CC4A38008CB8DD /* SmartBicycleFriend */,
+				F3B3DB5422CC4A38008CB8DD /* Products */,
+				38E748B186C8DB1004578483 /* Pods */,
+				DF84BCD195548B519A32F914 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F3B3DB5422CC4A38008CB8DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3B3DB5322CC4A38008CB8DD /* SmartBicycleFriend.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3B3DB5522CC4A38008CB8DD /* SmartBicycleFriend */ = {
+			isa = PBXGroup;
+			children = (
+				F3B3DC9D22CC9413008CB8DD /* service.php */,
+				F3B3DC9822CC931C008CB8DD /* Model */,
+				F3B3DC9522CC92D6008CB8DD /* View */,
+				F3B3DC9422CC8F2A008CB8DD /* Controller */,
+				F3B3DB6822CC8A0B008CB8DD /* Assets */,
+				F3B3DB5622CC4A38008CB8DD /* AppDelegate.swift */,
+				F3B3DB5822CC4A38008CB8DD /* ViewController.swift */,
+				F3B3DB5A22CC4A38008CB8DD /* Main.storyboard */,
+				F3B3DB5D22CC4A38008CB8DD /* Assets.xcassets */,
+				F3B3DB5F22CC4A38008CB8DD /* LaunchScreen.storyboard */,
+				F3B3DB6222CC4A38008CB8DD /* Info.plist */,
+			);
+			path = SmartBicycleFriend;
+			sourceTree = "<group>";
+		};
+		F3B3DB6822CC8A0B008CB8DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F3B3DB8822CC8A60008CB8DD /* 58.png */,
+				F3B3DB8622CC8A60008CB8DD /* 80.png */,
+				F3B3DBA522CC8A62008CB8DD /* 87.png */,
+				F3B3DB8322CC8A60008CB8DD /* 120.png */,
+				F3B3DB9722CC8A61008CB8DD /* AKTC.png */,
+				F3B3DB8D22CC8A60008CB8DD /* Annapolis.png */,
+				F3B3DB9E22CC8A62008CB8DD /* Apron.png */,
+				F3B3DB9B22CC8A62008CB8DD /* Attraction.png */,
+				F3B3DB7E22CC8A60008CB8DD /* BackgroundImage1.jpeg */,
+				F3B3DBB022CC8A63008CB8DD /* BackgroundImage2.jpeg */,
+				F3B3DB6A22CC8A5F008CB8DD /* BackgroundImage3.jpeg */,
+				F3B3DB8022CC8A60008CB8DD /* BackgroundImage4.jpeg */,
+				F3B3DB7722CC8A5F008CB8DD /* BackgroundImage5.jpeg */,
+				F3B3DBAD22CC8A63008CB8DD /* BanksBikes.png */,
+				F3B3DBB122CC8A63008CB8DD /* BayFerry.png */,
+				F3B3DB6B22CC8A5F008CB8DD /* BearRiver.png */,
+				F3B3DBA122CC8A62008CB8DD /* BernArt.png */,
+				F3B3DBA622CC8A62008CB8DD /* Berwick&District.png */,
+				F3B3DB6F22CC8A5F008CB8DD /* Best-Western-Plus.png */,
+				F3B3DBAF22CC8A63008CB8DD /* BicycleSpecialist.png */,
+				F3B3DB6D22CC8A5F008CB8DD /* Bike Shop.png */,
+				F3B3DBA922CC8A63008CB8DD /* Bike&Bean.png */,
+				F3B3DBA722CC8A62008CB8DD /* BikeMonkey.png */,
+				F3B3DB8122CC8A60008CB8DD /* Breton.png */,
+				F3B3DB9D22CC8A62008CB8DD /* BurlingtonRose.png */,
+				F3B3DB9922CC8A62008CB8DD /* Camping.png */,
+				F3B3DB9122CC8A61008CB8DD /* CathedralChurch.png */,
+				F3B3DBBA22CC8A64008CB8DD /* CloudNineNovelties.png */,
+				F3B3DB8F22CC8A61008CB8DD /* compass.png */,
+				F3B3DBA822CC8A63008CB8DD /* Cycles-Guitars.png */,
+				F3B3DB8E22CC8A61008CB8DD /* Cyclesmith.png */,
+				F3B3DB8A22CC8A60008CB8DD /* DancingGoat.png */,
+				F3B3DBBD22CC8A64008CB8DD /* Digby.png */,
+				F3B3DB9522CC8A61008CB8DD /* DuncansPub.png */,
+				F3B3DB7C22CC8A5F008CB8DD /* Earltown.png */,
+				F3B3DB9022CC8A61008CB8DD /* eye.png */,
+				F3B3DB9C22CC8A62008CB8DD /* FacebookLogo.png */,
+				F3B3DB8B22CC8A60008CB8DD /* Flag.png */,
+				F3B3DBB322CC8A63008CB8DD /* Frameworks.png */,
+				F3B3DBC322CC8A64008CB8DD /* Francis.png */,
+				F3B3DBAB22CC8A63008CB8DD /* GardenHouse.png */,
+				F3B3DBC722CC8A65008CB8DD /* Garrison.png */,
+				F3B3DB7322CC8A5F008CB8DD /* GoodRobot.png */,
+				F3B3DBC822CC8A65008CB8DD /* Hants-Exhibition-Grounds.png */,
+				F3B3DB9322CC8A61008CB8DD /* HarbourGuesthouse.png */,
+				F3B3DB7622CC8A5F008CB8DD /* HeartBikes.png */,
+				F3B3DB8422CC8A60008CB8DD /* Highland.png */,
+				F3B3DBAA22CC8A63008CB8DD /* Holiday-Inn.png */,
+				F3B3DBCA22CC8A65008CB8DD /* homepage.jpeg */,
+				F3B3DBAE22CC8A63008CB8DD /* House.png */,
+				F3B3DBA022CC8A62008CB8DD /* Hubbards.png */,
+				F3B3DBCC22CC8A65008CB8DD /* HubCycle.png */,
+				F3B3DBBE22CC8A64008CB8DD /* IdealBikes.png */,
+				F3B3DB7522CC8A5F008CB8DD /* iFIT.png */,
+				F3B3DBB522CC8A63008CB8DD /* Inn.png */,
+				F3B3DB9A22CC8A62008CB8DD /* InstagramLogo.png */,
+				F3B3DB7022CC8A5F008CB8DD /* JavaBlend.png */,
+				F3B3DB6C22CC8A5F008CB8DD /* Jeffs.png */,
+				F3B3DBBF22CC8A64008CB8DD /* KaulbachHouse.png */,
+				F3B3DBC122CC8A64008CB8DD /* Kiwi.png */,
+				F3B3DB6922CC8A5F008CB8DD /* LaceyMines.png */,
+				F3B3DB7B22CC8A5F008CB8DD /* Lanes.png */,
+				F3B3DB8C22CC8A60008CB8DD /* Liscomb.png */,
+				F3B3DB8722CC8A60008CB8DD /* Logo-White-BG.png */,
+				F3B3DBBC22CC8A64008CB8DD /* Logo.png */,
+				F3B3DB8522CC8A60008CB8DD /* Lunchbox.png */,
+				F3B3DBB622CC8A63008CB8DD /* Mabou.png */,
+				F3B3DB8222CC8A60008CB8DD /* Maven.png */,
+				F3B3DB7A22CC8A5F008CB8DD /* Meander-Brewery.png */,
+				F3B3DBB422CC8A63008CB8DD /* MEC.png */,
+				F3B3DBB822CC8A64008CB8DD /* Mecklenburg.png */,
+				F3B3DB8922CC8A60008CB8DD /* Mercator-Vineyards.png */,
+				F3B3DBC222CC8A64008CB8DD /* NewGlasgow.png */,
+				F3B3DBC422CC8A64008CB8DD /* Northumberland.png */,
+				F3B3DBCB22CC8A65008CB8DD /* Oak.png */,
+				F3B3DBB722CC8A64008CB8DD /* OceanStone.png */,
+				F3B3DBC922CC8A65008CB8DD /* OutsideOutdoor.png */,
+				F3B3DB6E22CC8A5F008CB8DD /* Pavia.png */,
+				F3B3DB7D22CC8A5F008CB8DD /* Queens-Place.png */,
+				F3B3DB7822CC8A5F008CB8DD /* Restaurant.png */,
+				F3B3DB9622CC8A61008CB8DD /* RiverRidge.png */,
+				F3B3DBA222CC8A62008CB8DD /* RumbLine.png */,
+				F3B3DBA422CC8A62008CB8DD /* Saltbox.png */,
+				F3B3DB7422CC8A5F008CB8DD /* Schoolhouse.png */,
+				F3B3DB9F22CC8A62008CB8DD /* SchoolhouseBrewery.png */,
+				F3B3DB9422CC8A61008CB8DD /* Scotsman.png */,
+				F3B3DBB222CC8A63008CB8DD /* SnowWhite.png */,
+				F3B3DB9222CC8A61008CB8DD /* Spoke&Note.png */,
+				F3B3DB7F22CC8A60008CB8DD /* Sportwheels.png */,
+				F3B3DB7122CC8A5F008CB8DD /* Stuart.png */,
+				F3B3DBC022CC8A64008CB8DD /* SweetRide.png */,
+				F3B3DBC522CC8A64008CB8DD /* TangledGardens.png */,
+				F3B3DB7922CC8A5F008CB8DD /* Tanner.png */,
+				F3B3DB7222CC8A5F008CB8DD /* The_Bicycle_Lunchbox.png */,
+				F3B3DBC622CC8A65008CB8DD /* TwitterLogo.png */,
+				F3B3DBB922CC8A64008CB8DD /* UnionStreet.png */,
+				F3B3DBBB22CC8A64008CB8DD /* VeloBaie.png */,
+				F3B3DB9822CC8A61008CB8DD /* Velofix.png */,
+				F3B3DBAC22CC8A63008CB8DD /* Wiles-Lake.png */,
+				F3B3DBA322CC8A62008CB8DD /* write-letter.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F3B3DC9422CC8F2A008CB8DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3B3DC9F22CC9697008CB8DD /* HomeViewController.swift */,
+				F3B3DCA122CC96B6008CB8DD /* MapViewController.swift */,
+				F3B3DCA322CC973E008CB8DD /* LocationDetailViewController.swift */,
+				F3B3DCA522CC97C4008CB8DD /* FeedbackViewController.swift */,
+				F3B3DCA722CC97FF008CB8DD /* PopUpViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F3B3DC9522CC92D6008CB8DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F3B3DC9622CC9307008CB8DD /* CustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F3B3DC9822CC931C008CB8DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F3B3DC9922CC933D008CB8DD /* Company.swift */,
+				F3B3DC9B22CC93E6008CB8DD /* JSONParser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3B3DB5222CC4A38008CB8DD /* SmartBicycleFriend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B3DB6522CC4A38008CB8DD /* Build configuration list for PBXNativeTarget "SmartBicycleFriend" */;
+			buildPhases = (
+				34C46D40D20AE8BF2CFD4461 /* [CP] Check Pods Manifest.lock */,
+				F3B3DB4F22CC4A38008CB8DD /* Sources */,
+				F3B3DB5022CC4A38008CB8DD /* Frameworks */,
+				F3B3DB5122CC4A38008CB8DD /* Resources */,
+				87C13567C0EC106BAC7E01EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartBicycleFriend;
+			productName = SmartBicycleFriend;
+			productReference = F3B3DB5322CC4A38008CB8DD /* SmartBicycleFriend.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3B3DB4B22CC4A37008CB8DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Cranberry;
+				TargetAttributes = {
+					F3B3DB5222CC4A38008CB8DD = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F3B3DB4E22CC4A37008CB8DD /* Build configuration list for PBXProject "SmartBicycleFriend" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3B3DB4A22CC4A37008CB8DD;
+			productRefGroup = F3B3DB5422CC4A38008CB8DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3B3DB5222CC4A38008CB8DD /* SmartBicycleFriend */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3B3DB5122CC4A38008CB8DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B3DC6322CC8A7A008CB8DD /* HubCycle.png in Resources */,
+				F3B3DC8222CC8A7A008CB8DD /* Saltbox.png in Resources */,
+				F3B3DC4922CC8A7A008CB8DD /* Camping.png in Resources */,
+				F3B3DC7122CC8A7A008CB8DD /* Lunchbox.png in Resources */,
+				F3B3DC5A22CC8A7A008CB8DD /* GoodRobot.png in Resources */,
+				F3B3DC8022CC8A7A008CB8DD /* RiverRidge.png in Resources */,
+				F3B3DC3122CC8A7A008CB8DD /* 80.png in Resources */,
+				F3B3DC3C22CC8A7A008CB8DD /* BackgroundImage5.jpeg in Resources */,
+				F3B3DC5822CC8A7A008CB8DD /* GardenHouse.png in Resources */,
+				F3B3DC7F22CC8A7A008CB8DD /* Restaurant.png in Resources */,
+				F3B3DC4A22CC8A7A008CB8DD /* CathedralChurch.png in Resources */,
+				F3B3DC9222CC8A7A008CB8DD /* Wiles-Lake.png in Resources */,
+				F3B3DC8122CC8A7A008CB8DD /* RumbLine.png in Resources */,
+				F3B3DB6122CC4A38008CB8DD /* LaunchScreen.storyboard in Resources */,
+				F3B3DC6F22CC8A7A008CB8DD /* Logo-White-BG.png in Resources */,
+				F3B3DC8522CC8A7A008CB8DD /* Scotsman.png in Resources */,
+				F3B3DC8F22CC8A7A008CB8DD /* UnionStreet.png in Resources */,
+				F3B3DC5222CC8A7A008CB8DD /* Earltown.png in Resources */,
+				F3B3DC6B22CC8A7A008CB8DD /* Kiwi.png in Resources */,
+				F3B3DC4322CC8A7A008CB8DD /* BicycleSpecialist.png in Resources */,
+				F3B3DC8622CC8A7A008CB8DD /* SnowWhite.png in Resources */,
+				F3B3DC8322CC8A7A008CB8DD /* Schoolhouse.png in Resources */,
+				F3B3DC3222CC8A7A008CB8DD /* 87.png in Resources */,
+				F3B3DC4F22CC8A7A008CB8DD /* DancingGoat.png in Resources */,
+				F3B3DC5F22CC8A7A008CB8DD /* Holiday-Inn.png in Resources */,
+				F3B3DC3B22CC8A7A008CB8DD /* BackgroundImage4.jpeg in Resources */,
+				F3B3DC5722CC8A7A008CB8DD /* Francis.png in Resources */,
+				F3B3DC4822CC8A7A008CB8DD /* BurlingtonRose.png in Resources */,
+				F3B3DC7622CC8A7A008CB8DD /* Mecklenburg.png in Resources */,
+				F3B3DC8922CC8A7A008CB8DD /* Stuart.png in Resources */,
+				F3B3DC3D22CC8A7A008CB8DD /* BanksBikes.png in Resources */,
+				F3B3DC7A22CC8A7A008CB8DD /* Oak.png in Resources */,
+				F3B3DC5322CC8A7A008CB8DD /* eye.png in Resources */,
+				F3B3DB5E22CC4A38008CB8DD /* Assets.xcassets in Resources */,
+				F3B3DC3622CC8A7A008CB8DD /* Apron.png in Resources */,
+				F3B3DC4E22CC8A7A008CB8DD /* Cyclesmith.png in Resources */,
+				F3B3DC4022CC8A7A008CB8DD /* BernArt.png in Resources */,
+				F3B3DC3522CC8A7A008CB8DD /* Annapolis.png in Resources */,
+				F3B3DC7822CC8A7A008CB8DD /* NewGlasgow.png in Resources */,
+				F3B3DC8D22CC8A7A008CB8DD /* The_Bicycle_Lunchbox.png in Resources */,
+				F3B3DC8C22CC8A7A008CB8DD /* Tanner.png in Resources */,
+				F3B3DC3322CC8A7A008CB8DD /* 120.png in Resources */,
+				F3B3DC4122CC8A7A008CB8DD /* Berwick&District.png in Resources */,
+				F3B3DC9322CC8A7A008CB8DD /* write-letter.png in Resources */,
+				F3B3DC5C22CC8A7A008CB8DD /* HarbourGuesthouse.png in Resources */,
+				F3B3DC4722CC8A7A008CB8DD /* Breton.png in Resources */,
+				F3B3DC4B22CC8A7A008CB8DD /* CloudNineNovelties.png in Resources */,
+				F3B3DC5422CC8A7A008CB8DD /* FacebookLogo.png in Resources */,
+				F3B3DC7B22CC8A7A008CB8DD /* OceanStone.png in Resources */,
+				F3B3DC5122CC8A7A008CB8DD /* DuncansPub.png in Resources */,
+				F3B3DC7722CC8A7A008CB8DD /* Mercator-Vineyards.png in Resources */,
+				F3B3DC6122CC8A7A008CB8DD /* House.png in Resources */,
+				F3B3DC7D22CC8A7A008CB8DD /* Pavia.png in Resources */,
+				F3B3DC8E22CC8A7A008CB8DD /* TwitterLogo.png in Resources */,
+				F3B3DC8422CC8A7A008CB8DD /* SchoolhouseBrewery.png in Resources */,
+				F3B3DC7522CC8A7A008CB8DD /* MEC.png in Resources */,
+				F3B3DC8722CC8A7A008CB8DD /* Spoke&Note.png in Resources */,
+				F3B3DC4522CC8A7A008CB8DD /* Bike&Bean.png in Resources */,
+				F3B3DC4222CC8A7A008CB8DD /* Best-Western-Plus.png in Resources */,
+				F3B3DC5D22CC8A7A008CB8DD /* HeartBikes.png in Resources */,
+				F3B3DC4C22CC8A7A008CB8DD /* compass.png in Resources */,
+				F3B3DC5B22CC8A7A008CB8DD /* Hants-Exhibition-Grounds.png in Resources */,
+				F3B3DC7E22CC8A7A008CB8DD /* Queens-Place.png in Resources */,
+				F3B3DC5022CC8A7A008CB8DD /* Digby.png in Resources */,
+				F3B3DC6722CC8A7A008CB8DD /* InstagramLogo.png in Resources */,
+				F3B3DC6022CC8A7A008CB8DD /* homepage.jpeg in Resources */,
+				F3B3DC6822CC8A7A008CB8DD /* JavaBlend.png in Resources */,
+				F3B3DC5622CC8A7A008CB8DD /* Frameworks.png in Resources */,
+				F3B3DBCD22CC8A6B008CB8DD /* 58.png in Resources */,
+				F3B3DC7022CC8A7A008CB8DD /* Logo.png in Resources */,
+				F3B3DC6E22CC8A7A008CB8DD /* Liscomb.png in Resources */,
+				F3B3DC7922CC8A7A008CB8DD /* Northumberland.png in Resources */,
+				F3B3DC6C22CC8A7A008CB8DD /* LaceyMines.png in Resources */,
+				F3B3DC4D22CC8A7A008CB8DD /* Cycles-Guitars.png in Resources */,
+				F3B3DC6A22CC8A7A008CB8DD /* KaulbachHouse.png in Resources */,
+				F3B3DC3E22CC8A7A008CB8DD /* BayFerry.png in Resources */,
+				F3B3DC5922CC8A7A008CB8DD /* Garrison.png in Resources */,
+				F3B3DC7222CC8A7A008CB8DD /* Mabou.png in Resources */,
+				F3B3DC3422CC8A7A008CB8DD /* AKTC.png in Resources */,
+				F3B3DC6D22CC8A7A008CB8DD /* Lanes.png in Resources */,
+				F3B3DC7C22CC8A7A008CB8DD /* OutsideOutdoor.png in Resources */,
+				F3B3DC7422CC8A7A008CB8DD /* Meander-Brewery.png in Resources */,
+				F3B3DC8A22CC8A7A008CB8DD /* SweetRide.png in Resources */,
+				F3B3DC3822CC8A7A008CB8DD /* BackgroundImage1.jpeg in Resources */,
+				F3B3DC9022CC8A7A008CB8DD /* VeloBaie.png in Resources */,
+				F3B3DC3922CC8A7A008CB8DD /* BackgroundImage2.jpeg in Resources */,
+				F3B3DC8B22CC8A7A008CB8DD /* TangledGardens.png in Resources */,
+				F3B3DC3F22CC8A7A008CB8DD /* BearRiver.png in Resources */,
+				F3B3DC6622CC8A7A008CB8DD /* Inn.png in Resources */,
+				F3B3DC9122CC8A7A008CB8DD /* Velofix.png in Resources */,
+				F3B3DC3A22CC8A7A008CB8DD /* BackgroundImage3.jpeg in Resources */,
+				F3B3DC5E22CC8A7A008CB8DD /* Highland.png in Resources */,
+				F3B3DC7322CC8A7A008CB8DD /* Maven.png in Resources */,
+				F3B3DC5522CC8A7A008CB8DD /* Flag.png in Resources */,
+				F3B3DC6522CC8A7A008CB8DD /* iFIT.png in Resources */,
+				F3B3DC4422CC8A7A008CB8DD /* Bike Shop.png in Resources */,
+				F3B3DC6922CC8A7A008CB8DD /* Jeffs.png in Resources */,
+				F3B3DC8822CC8A7A008CB8DD /* Sportwheels.png in Resources */,
+				F3B3DC9E22CC9413008CB8DD /* service.php in Resources */,
+				F3B3DC6222CC8A7A008CB8DD /* Hubbards.png in Resources */,
+				F3B3DC3722CC8A7A008CB8DD /* Attraction.png in Resources */,
+				F3B3DB5C22CC4A38008CB8DD /* Main.storyboard in Resources */,
+				F3B3DC6422CC8A7A008CB8DD /* IdealBikes.png in Resources */,
+				F3B3DC4622CC8A7A008CB8DD /* BikeMonkey.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34C46D40D20AE8BF2CFD4461 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartBicycleFriend-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87C13567C0EC106BAC7E01EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartBicycleFriend/Pods-SmartBicycleFriend-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartBicycleFriend/Pods-SmartBicycleFriend-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartBicycleFriend/Pods-SmartBicycleFriend-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3B3DB4F22CC4A38008CB8DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3B3DCA422CC973E008CB8DD /* LocationDetailViewController.swift in Sources */,
+				F3B3DB5922CC4A38008CB8DD /* ViewController.swift in Sources */,
+				F3B3DC9C22CC93E6008CB8DD /* JSONParser.swift in Sources */,
+				F3B3DB5722CC4A38008CB8DD /* AppDelegate.swift in Sources */,
+				F3B3DC9722CC9307008CB8DD /* CustomButton.swift in Sources */,
+				F3B3DCA822CC97FF008CB8DD /* PopUpViewController.swift in Sources */,
+				F3B3DC9A22CC933D008CB8DD /* Company.swift in Sources */,
+				F3B3DCA022CC9697008CB8DD /* HomeViewController.swift in Sources */,
+				F3B3DCA622CC97C4008CB8DD /* FeedbackViewController.swift in Sources */,
+				F3B3DCA222CC96B6008CB8DD /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F3B3DB5A22CC4A38008CB8DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B3DB5B22CC4A38008CB8DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3B3DB5F22CC4A38008CB8DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3B3DB6022CC4A38008CB8DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3B3DB6322CC4A38008CB8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3B3DB6422CC4A38008CB8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3B3DB6622CC4A38008CB8DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B6EBF6310E3699404365359 /* Pods-SmartBicycleFriend.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G9VZUHVWA;
+				INFOPLIST_FILE = SmartBicycleFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBicycleFriendByWinston.SmartBicycleFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3B3DB6722CC4A38008CB8DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 238898ACEE6A4E21225A5ED5 /* Pods-SmartBicycleFriend.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2G9VZUHVWA;
+				INFOPLIST_FILE = SmartBicycleFriend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = SmartBicycleFriendByWinston.SmartBicycleFriend;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3B3DB4E22CC4A37008CB8DD /* Build configuration list for PBXProject "SmartBicycleFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B3DB6322CC4A38008CB8DD /* Debug */,
+				F3B3DB6422CC4A38008CB8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3B3DB6522CC4A38008CB8DD /* Build configuration list for PBXNativeTarget "SmartBicycleFriend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3B3DB6622CC4A38008CB8DD /* Debug */,
+				F3B3DB6722CC4A38008CB8DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3B3DB4B22CC4A37008CB8DD /* Project object */;
+}
